@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+
+    <!--Search-->
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-5 ">
+        <div class="search-container ">
+            <h2>Search for a City</h2>
+            <div class="search-bar-container">
+                <input class="search-bar" type="text" placeholder="city">
+                <br>
+                <button class="search-btn" type="submit">Search</button>
+            </div>
+            <br>
+            <div class="search-history">
+            <!--pull from local storage-->
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--Current weater-->
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-7">
+        <div class="current-container col">
+            <h3>...</h3>
+            <div class="conditions">
+                <p class="condition-name">Temperature: </p>
+                <p class="current-condition" id="current-temp"></p>
+            </div>
+            <div class="conditions">
+                <p class="condition-name">Wind: </p>
+                <p class="current-condition" id="current-wind"></p>
+            </div>
+            <div class="conditions">
+                <p class="condition-name">Humidity:</p>
+                <p class="current-condition" id="current-humid"></p>
+            </div>
+            <div class="conditions">
+                <p class="condition-name">UV index:</p>
+                <p class="current-condition" id="current-UV"></p>
+            </div>
+        </div>
+        <br>
+
+        <!--5-day forecast-->
+        <div class="future-container">
+            <h3>5-day Forecast</h3>
+            <div class="future-box">
+                <div class="future">
+                    <div class="day-1-date">
+                        <h4>...</h4>
+                        <div class="icon"></div>
+                        <div class="future-conditions">temperature:</div>
+                        <div class="future-conditions">wind:</div>
+                        <div class="future-conditions">humidity:</div>
+                    </div>
+                </div>
+                <div class="future">
+                    <div class="day-2-date">
+                        <h4>...</h4>
+                        <div class="icon"></div>
+                        <div class="future-conditions">temperature:</div>
+                        <div class="future-conditions">wind:</div>
+                        <div class="future-conditions">humidity:</div>
+                    </div>
+                </div>
+                <div class="future">
+                    <div class="day-3-date">
+                        <h4>...</h4>
+                        <div class="icon"></div>
+                        <div class="future-conditions">temperature:</div>
+                        <div class="future-conditions">wind:</div>
+                        <div class="future-conditions">humidity:</div>
+                    </div>       
+                </div>
+                <div class="future">
+                    <div class="day-4-date">
+                        <h4>...</h4>
+                        <div class="icon"></div>
+                        <div class="future-conditions">temperature:</div>
+                        <div class="future-conditions">wind:</div>
+                        <div class="future-conditions">humidity:</div>
+                    </div>       
+                </div>
+                <div class="future">
+                    <div class="day-5-date">
+                        <h4>...</h4>
+                        <div class="icon"></div>
+                        <div class="future-conditions">temperature:</div>
+                        <div class="future-conditions">wind:</div>
+                        <div class="future-conditions">humidity:</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

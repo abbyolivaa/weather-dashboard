@@ -1,0 +1,19 @@
+h1 {
+    background-image: linear-gradient(to right, blue , purple);
+    color: white;
+    padding: 5px;
+    text-align:center;
+    font-weight: 300;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
