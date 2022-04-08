@@ -13,6 +13,31 @@ h1 {
     padding: 10px;
 }
 
+.search-container .search-bar-container {
+    border-bottom: solid 1px;
+}
+
+.current-container{
+    border: solid 1px;
+    padding: 5px;
+}
+
+.future-box {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    columns: 5;
+    margin-right: 5px;
+}
+
+.future-box .future {
+    background-color: rgb(67, 67, 138);
+    color: #fff;
+    padding: 5px 10px 10px;
+    
+}
+
 
 
 

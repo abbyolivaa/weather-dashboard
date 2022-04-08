@@ -12,17 +12,21 @@
     <h1>Weather Dashboard</h1>
 
     <!--Search-->
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-5 ">
+    <div class="col-xs-12 col-sm-3 col-lg-4 ">
         <div class="search-container ">
             <h2>Search for a City</h2>
             <div class="search-bar-container">
-                <input class="search-bar" type="text" placeholder="city">
+                <input type="text" name="city-name" class="search-bar" placeholder="city"/>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg>
+                </svg> 
+                <br>
+                <br>
+                <button class="search-btn" type="submit">Search</button>
+                <br>
+                <br>
             </div> 
-            <br>
-             <button class="search-btn" type="submit">Search</button>
+           
             <br>
             <div class="search-history">
             <!--pull from local storage-->
@@ -32,9 +36,9 @@
     <br>
 
     <!--Current weater-->
-    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-7">
-        <div class="current-container col">
-            <h3>...</h3>
+    <div class="col-xs-12 col-sm-9 col-lg-8">
+        <div class="current-container">
+            <h2>...</h2>
             <div class="conditions">
                 <p class="condition-name">Temperature: </p>
                 <p class="current-condition" id="current-temp"></p>
@@ -106,5 +110,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
