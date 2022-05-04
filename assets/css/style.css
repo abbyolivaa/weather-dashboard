@@ -38,6 +38,19 @@ h1 {
     
 }
 
+.conditions{
+    display: flex;
+    flex-direction: row;
+}
+
+.conditions p{
+    padding: 2px;
+}
+
+.hide{
+    display: none;
+}
+
 
 
 

@@ -28,6 +28,7 @@
                 <br>
                 <br>
                 <button class="search-btn" type="submit">Search</button>
+                <button class="clear-btn" type="submit">Clear</button>
                 <br>
                 <br>
             </div> 
@@ -43,9 +44,9 @@
     <!--Current weater-->
     <div class="col-xs-12 col-sm-9 col-lg-8">
         <div class="current-container">
-            <h2>...</h2>
-            <div class="conditions">
-                <p class="condition-name">Temperature: </p>
+            <h2 id="current-city">...</h2>
+            <div class="conditions d-flex">
+                <p class="condition-name">Temperature:</p>
                 <p class="current-condition" id="current-temp"></p>
             </div>
             <div class="conditions">
@@ -56,10 +57,6 @@
                 <p class="condition-name">Humidity:</p>
                 <p class="current-condition" id="current-humid"></p>
             </div>
-            <div class="conditions">
-                <p class="condition-name">UV index:</p>
-                <p class="current-condition" id="current-UV"></p>
-            </div>
         </div>
         <br>
 
@@ -67,51 +64,6 @@
         <div class="future-container">
             <h3>5-day Forecast</h3>
             <div class="future-box">
-                <div class="future">
-                    <div class="day-1-date">
-                        <h4>...</h4>
-                        <div class="icon"></div>
-                        <div class="future-conditions">temperature:</div>
-                        <div class="future-conditions">wind:</div>
-                        <div class="future-conditions">humidity:</div>
-                    </div>
-                </div>
-                <div class="future">
-                    <div class="day-2-date">
-                        <h4>...</h4>
-                        <div class="icon"></div>
-                        <div class="future-conditions">temperature:</div>
-                        <div class="future-conditions">wind:</div>
-                        <div class="future-conditions">humidity:</div>
-                    </div>
-                </div>
-                <div class="future">
-                    <div class="day-3-date">
-                        <h4>...</h4>
-                        <div class="icon"></div>
-                        <div class="future-conditions">temperature:</div>
-                        <div class="future-conditions">wind:</div>
-                        <div class="future-conditions">humidity:</div>
-                    </div>       
-                </div>
-                <div class="future">
-                    <div class="day-4-date">
-                        <h4>...</h4>
-                        <div class="icon"></div>
-                        <div class="future-conditions">temperature:</div>
-                        <div class="future-conditions">wind:</div>
-                        <div class="future-conditions">humidity:</div>
-                    </div>       
-                </div>
-                <div class="future">
-                    <div class="day-5-date">
-                        <h4>...</h4>
-                        <div class="icon"></div>
-                        <div class="future-conditions">temperature:</div>
-                        <div class="future-conditions">wind:</div>
-                        <div class="future-conditions">humidity:</div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
