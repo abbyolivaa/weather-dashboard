@@ -22,7 +22,7 @@ h1 {
     padding: 5px;
 }
 
-.future-box {
+.future-box{
     font-size: 12px;
     display: flex;
     justify-content: space-between;
@@ -35,8 +35,12 @@ h1 {
     background-color: rgb(67, 67, 138);
     color: #fff;
     padding: 5px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
+
 
 .conditions{
     display: flex;
